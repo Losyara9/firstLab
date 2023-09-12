@@ -3,6 +3,7 @@ public class Main {
     public static double convert(double a) {
         return (a * 3.785);
     }
+
     public static int fitCalc1(int a, int b) {
         return (a * b);
     }
