@@ -3,9 +3,6 @@ public class Main {
     public static double convert(double a) {
         return (a * 3.785);
     }
-    public static int fitCalc(int a, int b) {
-        return (a * b);
-    }
 
     public static int containers(int a, int b, int c) {
         return (a*20 + b*50 + c *100);
@@ -82,10 +79,6 @@ public class Main {
         System.out.println(convert(5));
         System.out.println(convert(3));
         System.out.println(convert(8));
-
-        System.out.println(fitCalc(15, 1));
-        System.out.println(fitCalc(24, 2));
-        System.out.println(fitCalc(41, 3));
 
         System.out.println(containers(3, 4, 2));
         System.out.println(containers(5, 0, 2));
